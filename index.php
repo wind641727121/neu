@@ -21,7 +21,9 @@
         if($num) {  
           $row = mysqli_fetch_array($result);  //将数据以索引方式储存在数组中  
           $name = $row[1];
+		   
           $sso = $row[0];
+		  echo 'jahaha';
         }  
   }    
 ?>
