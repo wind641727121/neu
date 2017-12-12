@@ -12,7 +12,7 @@
         if(!$conn ) {
           die('Could not connect:' . mysql_error());
         }
-		echo 'ssd';
+		
         mysqli_query($conn,"set names 'utf8'");
         mysqli_select_db($conn,'NEUSTU');
         
@@ -24,7 +24,7 @@
           $name = $row[1];
 		   
           $sso = $row[0];
-		  echo 'jahaha';
+		 
         }  
   }    
 ?>
